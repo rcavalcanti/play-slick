@@ -87,3 +87,5 @@ lazy val computerDatabaseSample = sampleProject("computer-database")
 lazy val streamsSample = sampleProject("streams")
 
 lazy val basicSample = sampleProject("basic")
+
+addCommandAlias("validateCode", ";scalafmtCheckAll;scalafmtSbtCheck")
